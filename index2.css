@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+   height: 50px;
+   width: 100%;
+    background-image: linear-gradient(to right,orange,white,green);
+}
+.box1{
+    position: relative;
+}
+.happy{
+    position: absolute;
+    left: 546px;
+}
+.ha{
+    background-color: orange;
+}
+.indp{
+    background-color: white;
+}
+.day{
+    background-color: green;
+}
+.flag{
+    position: absolute;
+    z-index: 2;
+    top: 396px;
+    left: 821px;
+}
+.flag1{
+    position: absolute;
+    z-index: 2;
+    top: 396px;
+    left: 810px;
+    transform: scaleX(-1);
+}
+.city{
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    width: 100%;
+}
+.road{
+    position: absolute;
+    z-index: 1;
+    margin-top: 498px;
+    animation: road .2s infinite;
+}
+@keyframes road{
+    0%{
+        transform: scaleX(1.0);
+    }
+    100%{
+        
+        transform: scaleX(1.5);
+        
+    }
+   
+}
+.car{
+    position: absolute;
+    z-index: 1;
+    top: 394px;
+    left: 500px;
+    
+}
+.sky{
+    position: absolute;
+    z-index: -1;
+    height: 496px;
+    width: 100%;
+
+}
+.sun{
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    animation: sun 55s infinite;
+    
+}
+@keyframes sun{
+    0%{
+        left: 0px;
+    }
+    50%{
+        
+        left: 1400px;
+        
+    }
+    100%{
+        
+        left: 0px;
+        
+    }
+   
+}
+.wheel{
+    position: absolute;
+    z-index: 1;
+    top: 498px;
+    left: 539px;
+    animation: wheel .2s infinite;
+    
+    
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        
+        transform: rotate(360deg);
+        
+    }
+   
+}
+
+.wheel1{
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    left: 816px;
+    animation: wheel .2s infinite;
+    
+    
+}
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        
+        transform: rotate(360deg);
+        
+    }
+   
+}
+.container3{
+    
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(to right,orange,white,green);
+    margin-top: 798px;
+}

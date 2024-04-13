@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(193, 213, 6);
+}
+.items{
+    display: flex;
+    justify-content: center;
+    
+}
+.box1{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease;
+    transition-delay: 1s;
+    
+}
+.box1:hover{
+    width: 300px;
+}
+.box2{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition:2s;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box2:hover{
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease-in;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box3:hover{
+    width: 300px;
+}
+.box4{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease-out;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box4:hover{
+    width: 300px;
+}
+.box5{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease-out;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box5:hover{
+    width: 300px;
+}
+.box4:hover{
+    width: 300px;
+}
+.box6{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease-out;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box6:hover{
+    width: 300px;
+}
+.box7{
+    background-color:lightsalmon;
+    height: 100px;
+    width: 100px;
+    transition: 2s ease-out;
+    transition-delay: 1s;
+    margin-top: 10px;
+    
+}
+.box7:hover{
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+    color: rgb(102, 14, 169);
+}
